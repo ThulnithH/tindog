@@ -1,0 +1,186 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+#title {
+    text-align: left;
+}
+
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+} 
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    right: 25%;
+    transform: rotate(28deg);
+    position: absolute;
+}
+
+#features {
+    padding: 7% 11%;
+    position: relative;
+}
+
+/* Icon Images */
+
+.icon-images {
+    color: #ef8172;
+    font-size: 4rem;
+    margin-bottom: 7%;
+
+}  
+
+.icon-images:hover {
+    color: #ff4c68;
+}
+
+.feature-box {
+    padding: 5%;
+
+}
+
+.feature-title {
+    font-weight: 800; 
+    font-size: 1.6rem;
+}
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+}
+
+.pricing-heading {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.card-title {
+    font-weight: 800; 
+    font-size: 1.6rem;
+}
+
+.price-text {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+@media (max-width:1024px) {
+
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta {
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    margin: 7% 15%;
+}
+
+.footer-icon {
+    margin: 20px 10px;
+}
